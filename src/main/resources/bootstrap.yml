@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: notify
+  cloud:
+    config:
+      uri: http://localhost:9090/notify/
+      profile: local
+      
